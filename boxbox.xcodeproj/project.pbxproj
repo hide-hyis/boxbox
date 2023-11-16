@@ -112,18 +112,14 @@
 		08AD4B822B06C1520017EDD7 /* boxbox */ = {
 			isa = PBXGroup;
 			children = (
+				08AD4BC62B06C9A10017EDD7 /* Manager */,
+				08AD4BC52B06C98A0017EDD7 /* Enum */,
+				08AD4BC42B06C9690017EDD7 /* Model */,
+				08AD4BC32B06C95A0017EDD7 /* View */,
+				08AD4BC22B06C9520017EDD7 /* ViewModel */,
 				08AD4B832B06C1520017EDD7 /* AppDelegate.swift */,
-				08AD4B852B06C1520017EDD7 /* ContentView.swift */,
 				08AD4B892B06C1530017EDD7 /* Assets.xcassets */,
 				08AD4B8B2B06C1530017EDD7 /* Preview Content */,
-				08AD4BAF2B06C1900017EDD7 /* BottomButton.swift */,
-				08AD4BB12B06C1B70017EDD7 /* Movability.swift */,
-				08AD4BB32B06C1CF0017EDD7 /* EditSizeView.swift */,
-				08AD4BB52B06C1EA0017EDD7 /* ObjectViewModel.swift */,
-				08AD4BB72B06C2030017EDD7 /* ARManager.swift */,
-				08AD4BB92B06C2150017EDD7 /* ARAction.swift */,
-				08AD4BBB2B06C23B0017EDD7 /* CustomARView.swift */,
-				08AD4BBD2B06C25D0017EDD7 /* ARViewContainer.swift */,
 			);
 			path = boxbox;
 			sourceTree = "<group>";
@@ -151,6 +147,50 @@
 				08AD4BA22B06C1540017EDD7 /* boxboxUITestsLaunchTests.swift */,
 			);
 			path = boxboxUITests;
+			sourceTree = "<group>";
+		};
+		08AD4BC22B06C9520017EDD7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08AD4BB52B06C1EA0017EDD7 /* ObjectViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		08AD4BC32B06C95A0017EDD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08AD4B852B06C1520017EDD7 /* ContentView.swift */,
+				08AD4BBD2B06C25D0017EDD7 /* ARViewContainer.swift */,
+				08AD4BBB2B06C23B0017EDD7 /* CustomARView.swift */,
+				08AD4BAF2B06C1900017EDD7 /* BottomButton.swift */,
+				08AD4BB32B06C1CF0017EDD7 /* EditSizeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08AD4BC42B06C9690017EDD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08AD4BB12B06C1B70017EDD7 /* Movability.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08AD4BC52B06C98A0017EDD7 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				08AD4BB92B06C2150017EDD7 /* ARAction.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		08AD4BC62B06C9A10017EDD7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				08AD4BB72B06C2030017EDD7 /* ARManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
