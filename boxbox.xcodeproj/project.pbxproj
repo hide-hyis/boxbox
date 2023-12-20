@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0819B20F2B328DC40008A74A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0819B20E2B328DC40008A74A /* index.html */; };
+		0819B2112B328DD60008A74A /* sample.md in Resources */ = {isa = PBXBuildFile; fileRef = 0819B2102B328DD60008A74A /* sample.md */; };
 		08AD4B842B06C1520017EDD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AD4B832B06C1520017EDD7 /* AppDelegate.swift */; };
 		08AD4B862B06C1520017EDD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AD4B852B06C1520017EDD7 /* ContentView.swift */; };
 		08AD4B8A2B06C1530017EDD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AD4B892B06C1530017EDD7 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0819B20E2B328DC40008A74A /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		0819B2102B328DD60008A74A /* sample.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = sample.md; sourceTree = "<group>"; };
 		08AD4B802B06C1520017EDD7 /* boxbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boxbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08AD4B832B06C1520017EDD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08AD4B852B06C1520017EDD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 		0819B20D2B328D330008A74A /* docs */ = {
 			isa = PBXGroup;
 			children = (
+				0819B20E2B328DC40008A74A /* index.html */,
+				0819B2102B328DD60008A74A /* sample.md */,
 			);
 			path = docs;
 			sourceTree = "<group>";
@@ -311,7 +317,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0819B20F2B328DC40008A74A /* index.html in Resources */,
 				08AD4B8D2B06C1530017EDD7 /* Preview Assets.xcassets in Resources */,
+				0819B2112B328DD60008A74A /* sample.md in Resources */,
 				08AD4B8A2B06C1530017EDD7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
