@@ -89,9 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0819B20D2B328D330008A74A /* docs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
 		08AD4B772B06C1520017EDD7 = {
 			isa = PBXGroup;
 			children = (
+				0819B20D2B328D330008A74A /* docs */,
 				08AD4B822B06C1520017EDD7 /* boxbox */,
 				08AD4B952B06C1540017EDD7 /* boxboxTests */,
 				08AD4B9F2B06C1540017EDD7 /* boxboxUITests */,
